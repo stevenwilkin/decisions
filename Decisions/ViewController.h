@@ -11,5 +11,9 @@
 @interface ViewController : UIViewController
 
 @property (nonatomic, strong) IBOutlet UILabel *label;
+@property (nonatomic, strong) NSTimer *animationTimer;
+@property BOOL state;
+
+- (void)flipLabel;
 
 @end
