@@ -15,5 +15,6 @@
 @property BOOL state;
 
 - (void)flipLabel;
+- (void)stopAnimation;
 
 @end
