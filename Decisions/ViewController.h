@@ -14,7 +14,10 @@
 @property (nonatomic, strong) NSTimer *animationTimer;
 @property BOOL state;
 
+- (IBAction)decide:(id)sender;
+
 - (void)flipLabel;
+- (void)startAnimation;
 - (void)stopAnimation;
 
 @end
